@@ -37,7 +37,7 @@ jobs:
         rm -rf *sing-box*
         ls
         
-    - name: Install mihomo & compile rule
+    - name: Install mihomo & Compile rule
       env:
         DEBIAN_FRONTEND: noninteractive
       run: |
